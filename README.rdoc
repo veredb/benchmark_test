@@ -1,28 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository includes benchmarks for mass inserting data into database in Rails. The code was taken from:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.coffeepowered.net/2009/01/23/mass-inserting-data-in-rails-without-killing-your-performance/
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This rails project contains a postgresql, in order to compare the results with the above link, which were done with mysql db.
+
+The main goal is to compare the results with pg_data_encoder, by Pete Brumm (https://github.com/pbrumm/pg_data_encoder), performance
